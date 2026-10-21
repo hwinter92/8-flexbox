@@ -1,8 +1,48 @@
 html {
     background-color: lavenderblush;
+    font-family: Lato;
 }
 
 body {
     margin: 0;
 }
 
+.site-header {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: lightblue;
+    padding: 10px;
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+.site-footer {
+    background-color: thistle;
+    padding: 10px;
+}
+
+.two-column {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 30px auto 0 auto;
+    background-color: white;
+}
+
+.site-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
